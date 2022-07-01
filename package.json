@@ -5,6 +5,7 @@
   "scripts": {
     "start": "scripts/start.sh",
     "dev": "node-dev --respawn src/index.js"
+    "build": "tsc -p src/",
   },
   "dependencies": {
     "@koa/cors": "^3.3.0",
